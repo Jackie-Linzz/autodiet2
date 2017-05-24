@@ -1,0 +1,140 @@
+.left, .middle, .right {
+	position: fixed;
+	width: 33.3%;
+	
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.left {
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+.middle {
+	top: 0;
+	left: 33.3%;
+	bottom: 0;
+}
+.right {
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.left .heading {
+	font-size: 18px;
+	line-height: 24px;
+	background-color: #9cf;
+}
+.middle .btn-other {
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	line-height: 24px;
+	background-color: #9cf;
+}
+.right .heading {
+	font-size: 18px;
+	line-height: 24px;
+	background-color: #9c9;
+}
+.left .item {
+	background-color: #9cf
+}
+
+.item {
+	margin: 5px 1px;
+	padding: 4px 8px 34px 8px;
+	position: relative;
+	font-size: 16px;
+	line-height: 24px;
+	border-radius: 4px;
+}
+.item .label {
+	text-align: center;
+}
+.item .info {
+	font-size: 16px;
+	line-height: 20px;
+	text-align: right;
+}
+.item .demand {
+	margin-bottom: 10px;
+	padding: 0 5px;
+	text-align: left;
+	font-size: 16px;
+	line-height: 20px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.item .btn-cancel {
+	display: block;
+	position: absolute;
+	top: 6px;
+	left: 8px;
+	line-height: 22px;
+	min-width: 24px;
+	border-radius: 12px;
+	border: 1px solid white;
+	background-color: #9c9;
+}
+.item .btn-done, .item .btn-choose {
+	display: block;
+	position: absolute;
+	right: 8px;
+	border-bottom: 4px;
+	padding: 0 10px;
+	font-size: 18px;
+	line-height: 28px;
+	border-radius: 15px;
+	border: 1px solid white;
+	
+}
+
+.right .item {
+	background-color: #9c9;
+}
+
+.current {
+	margin: 60px 0;
+	padding: 10px;
+	width: 100%;
+	
+	background-color: #9cf;
+	border-radius: 4px;
+}
+.current .label {
+	font-size: 22px;
+	line-height: 30px;
+	
+}
+.current .info {
+	text-align: right;
+	font-size: 16px;
+	line-height: 20px;
+}
+.current .demand {
+	text-align: left;
+	font-size: 16px;
+	line-height: 20px;
+	min-height: 60px;
+}
+
+.btn-accept {
+	display: block;
+	width: 100%;
+	font-size: 22px;
+	line-height: 50px;
+	background-color: #9cf;
+	border-radius: 4px;
+}
+
+.btn-refuse {
+	display: block;
+	width: 75%;
+	margin: 60px auto;
+	font-size: 18px;
+	line-height: 36px;
+	background-color: #9c9;
+	border-radius: 4px;
+}

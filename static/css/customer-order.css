@@ -1,0 +1,125 @@
+.header .btn-history {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	width: 100px;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 26px;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 6px;
+	
+}
+
+.new {
+	margin: 40px 0;
+}
+
+.label {
+	font-size: 18px;
+	line-height: 26px;
+	color: #37495d;
+	background-color: #ffcc99;
+	
+}
+
+.item, .total {
+	position: relative;
+	margin: 1px 0;
+	color: #37495d;
+	font-size: 18px;
+	line-height: 30px;
+	background-color: #ffcc99;
+}
+
+.total {
+	text-align: right;
+	padding: 0 41px;
+}
+
+.item .name {
+	margin-bottom: 3px;
+	padding: 0 15px;
+	text-align: left;
+	
+}
+.item .pn {
+	position: absolute;
+	top: 0;
+	right: 15px;
+}
+
+.pn .num {
+	display: inline-block;
+	min-width: 26px;
+	margin-left: 2px;
+	line-height: 26px;
+	color: white;
+	border-radius: 13px;
+	background-color: #f5bc83;
+}
+
+.item .demand {
+	display: block;
+	
+	margin: 0;
+	padding: 0 15px;
+	font-size: 16px;
+	line-height: 1.2em;
+	background-color: #ffd6ad;
+	border: 0 solid white;
+}
+
+.old .item .demand {
+	width: 100%;
+	
+}
+
+.old .item .btn-cancel {
+	display: none;
+}
+
+.gdemand {
+	width: 100%;
+	margin: 5px 0 0 0;
+	padding: 0 15px;
+	color: #37495d;
+	font-size: 18px;
+	line-height: 1.2em;
+	
+}
+
+.item .demand {
+	color: #37495d;
+}
+
+.new .item .demand {
+	
+	width: 80%;
+	
+	margin-left: 0;
+	margin-right: auto;
+	padding: 0 15px;
+	
+}
+
+.new .item .btn-cancel {
+	position: absolute;
+	top: 34px;
+	right: 15px;
+	min-width: 60px;
+	padding: 0;
+	line-height: 30px;
+	border-radius: 15px;
+	background-color: #9c9;
+}
+
+.btn-appraise {
+	font-size: 18px;
+	line-height: 36px;
+	padding: 0;
+	border-radius: 0;
+	background-color: #f96;
+}

@@ -1,0 +1,70 @@
+.header {
+	padding: 10px 0;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 400;
+	background-color: #9cf;
+	border-radius: 0;
+}
+
+.item {
+	position: relative;
+	margin: 5px 0;
+	padding: 5px 15px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #37495d;
+	background-color: #fc9;
+	
+}
+
+.item .name {
+	text-align: left;
+	text-indent: 1em;
+	margin-bottom: 5px;
+	
+}
+
+.item .pn {
+	position: absolute;
+	right: 15px;
+	top: 5px;
+}
+
+.pn .num {
+	display: inline-block;
+	min-width: 24px;
+	margin-left: 2px;
+	color: white;
+	background-color: #f5bc83;
+	border-radius: 12px;
+}
+
+.item .demand {
+	display: block;
+	width: 80%;
+	min-width: 400px;
+	margin: 0 auto 0 0;
+	padding: 0 1em;
+	font-size: 16px;
+	line-height: 1.2em;
+	border-width: 0;
+	color: 37495d;
+	background-color: #ffd6ad;
+}
+
+.item .btn-add {
+	display: block;
+
+	position: absolute;
+	right: 15px;
+	top: 36px;
+	padding: 0;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	min-width: 60px;
+	border-radius: 15px;
+	background-color: #f66;
+}
+

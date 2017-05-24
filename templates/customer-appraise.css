@@ -1,0 +1,48 @@
+.history {
+	margin: 10px 0;
+	padding: 6px 0;
+	border-radius: 6px;
+	background-color: #fc9;
+}
+
+.label {
+	font-size: 18px;
+	line-height: 26px;
+	color: white;
+	background-color: #ffd6ad;
+	
+}
+
+.item {
+	position: relative;
+	margin: 2px 0;
+	color: white;
+	font-size: 18px;
+	line-height: 30px;
+	border-top: 1px dotted white;
+}
+
+.feedback {
+	width: 80%;
+	margin: 0 auto;
+	color: #ccc;
+	
+}
+.feedback:before, .feedback:after {
+	display: block; 
+	content: ''; 
+	width: 0; 
+	clear: both;
+}
+
+.fb {
+	display: block;
+	float: left;
+	width: 33.3%;
+}
+
+.pressed {
+	color: white;
+	background-color: #9cf;
+	border-radius: 6px;
+}

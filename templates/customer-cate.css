@@ -1,0 +1,49 @@
+.logout {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	width: 100px;
+	height: 26px;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	line-height: 26px;
+	border: 1px double white;
+	background-color: transparent;
+}
+
+.item {
+	position: relative;
+	margin: 5px 0;
+	padding: 32px 0;
+	
+	background-color: #f66;
+	border-radius: 6px;
+}
+
+.item h4 {
+	position: relative;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.item .num {
+	
+	position: absolute;
+	right: 8px;
+	bottom: 31px;
+	margin: 0;
+	padding: 0;
+	
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 16px;	
+}
+
+.btn-left {
+	background-color: #9c9;
+}
+
+.btn-right {
+	background-color: #f96;
+}

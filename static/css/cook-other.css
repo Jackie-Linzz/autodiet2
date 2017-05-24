@@ -1,0 +1,13 @@
+.btn-stop, .btn-request, .btn-home {
+	display: block;
+	width: 100%;
+	margin: 20px 0;
+	font-size: 18px;
+	line-height: 40px;
+	background-color: #9cf;
+	border-radius: 4px;
+}
+
+.btn-stop {
+	margin-top: 100px;
+}

@@ -1,0 +1,96 @@
+.header {
+	padding: 10px 0;
+	background-color: #9cf;
+	border-radius: 0;
+}
+.header h1 {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.history {
+	margin: 10px 0;
+	padding: 6px 0;
+	border-radius: 6px;
+	background-color: #fc9;
+}
+.label {
+	font-size: 18px;
+	line-height: 26px;
+	color: #37495d;
+	background-color: #ffcc99;
+	
+}
+
+.gdemand {
+	width: 100%;
+	margin: 5px 0 0 0;
+	padding: 0 15px;
+	color: #ccc;
+	font-size: 18px;
+	line-height: 1.2em;
+	background-color: #ffd6ad;
+	
+}
+
+.item, .total {
+	position: relative;
+	margin: 1px 0;
+	color: #37495d;
+	font-size: 18px;
+	line-height: 30px;
+	background-color: #ffcc99;
+	border-top: 1px dotted white;
+}
+
+.total {
+	text-align: right;
+	padding: 0 41px;
+}
+
+.item .name {
+	padding: 0 15px;
+	text-align: left;
+	
+}
+.item .price {
+	position: absolute;
+	top: 0;
+	right: 15px;
+}
+
+.price .num {
+	display: inline-block;
+	min-width: 26px;
+	margin-left: 2px;
+	line-height: 26px;
+	
+	vertical-align: top;
+	color: white;
+	border-radius: 13px;
+	background-color: #f5bc83;
+}
+
+.item .demand {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0 15px;
+	font-size: 16px;
+	line-height: 1.2em;
+	text-align: left;
+	color: #ccc;
+	background-color: #ffd6ad;
+	border: 0 solid white;
+}
+
+.btn-back {
+	display: block;
+	font-size: 18px;
+	line-height: 44px;
+	color: white;
+	background-color: #9cf;
+	
+}
